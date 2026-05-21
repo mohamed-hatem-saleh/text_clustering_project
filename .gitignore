@@ -1,1 +1,7 @@
+# virtual environment
 .venv
+
+# Data files
+people_wiki.csv
+
+__pycache__/
