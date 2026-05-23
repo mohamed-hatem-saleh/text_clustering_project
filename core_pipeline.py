@@ -67,7 +67,6 @@ def get_filtered_features(df, text_column, pipeline):
     # SAFETY CHECK: If the pipeline returned a list, run it through a standalone vectorizer
     if isinstance(X_tfidf_all, list):
         print("💡 Pipeline returned text lists. Applying dynamic vectorization step...")
-        from sklearn.feature_extraction.text import TfidfVectorizer
         # Fallback vectorizer using your preset notebook configurations
         fallback_vec = TfidfVectorizer(max_df=0.8, min_df=5, max_features=10000, norm='l2')
         X_tfidf_all = fallback_vec.fit_transform(X_tfidf_all)

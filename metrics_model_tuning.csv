@@ -1,0 +1,15 @@
+Dataset,Model,Parameter,Silhouette
+20 Newsgroups,K-Means,init=k-means++,0.0032631945715863087
+20 Newsgroups,Hierarchical,linkage=ward,0.08752922902152184
+20 Newsgroups,Hierarchical,linkage=average,0.21724352595189653
+20 Newsgroups,Hierarchical,linkage=complete,0.09524083279010692
+20 Newsgroups,GMM,covariance=diag,0.11384281311744567
+20 Newsgroups,GMM,covariance=spherical,0.127952233265569
+20 Newsgroups,GMM,covariance=tied,0.1714872686934788
+Wikipedia Corpus,K-Means,init=k-means++,0.03441936052730605
+Wikipedia Corpus,Hierarchical,linkage=ward,0.18393353532208376
+Wikipedia Corpus,Hierarchical,linkage=average,0.204542182374161
+Wikipedia Corpus,Hierarchical,linkage=complete,0.19702838146444543
+Wikipedia Corpus,GMM,covariance=diag,0.21966899463165246
+Wikipedia Corpus,GMM,covariance=spherical,0.23890601563112193
+Wikipedia Corpus,GMM,covariance=tied,0.24039140396415448
